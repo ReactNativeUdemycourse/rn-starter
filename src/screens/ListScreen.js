@@ -20,7 +20,10 @@ const ListScreen = () => {
             renderItem = {({item}) => {
                 //element === { item: {name: 'Friend1'}, index: 0}
                 return (
-                    <View>  
+                    <View>
+                        {/* <TouchableOpacity onPress={() => console.log('Hola de lista!!')}>
+                            <Text style ={styles.textStyle2}>{item.name} - Age {item.age}</Text>
+                        </TouchableOpacity> */}
                         <Text style ={styles.textStyle2}>{item.name} - Age {item.age}</Text>      
                     </View>
                 );
